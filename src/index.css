@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Oswald' sans-serif;
+  font-size: 1.3rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.info {
+  border-bottom-left-radius: 100px;
+}
+
+.main{
+  height: 600px;
+	width: 100%;
+	float: left;
+	background-color: aliceblue;
+	background-image: url('file:///C:/Users/hp/Downloads/DentCare%20Free%20Website%20Template%20-%20Free-CSS.com/dental-clinic-website-template/img/carousel-1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, .85);
+  z-index: 1;
+}
+
+/* .blur_img{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, .85);
+  z-index: 1;
+} */
+
+
+@keyframes zoom-in{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.zoom-in-effect{
+  animation: zoom-in 0.9s ease-in-out;
+}
+
+.caro_btn:hover{
+  background-color: #F57E57;
+  color: black;
+}
+
+.caro_btn2{
+  background-color: #F57E57;
+}
+
+.caro_btn2:hover{
+  color: black;
+  background-color: #0D6EFD;
+}
+
+.open_time{
+  position: absolute;
+  right: 0;
+}
+
+.foot1{
+  text-decoration: none;
+  color: white;
+}
+
+.icons{
+  height: 50px;
+  width: 50px;
+  background-color: #06A3DA;
+  justify-content: center;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.icons:hover{
+  background-color: #F57E57;
+  color: black;
+}
+
+.appointment_btn:hover{
+    background-color: #F57E57;
+    color: black;
+}
+
+.appointment_box{
+  height: 240px;
+  width: 100%;
+  background-color: #06A3DA;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.gallery_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact_box1{
+  height: 500px;
+  width: 100%;
+  background-color: #EEF9FF;
+  padding: 40px;
+  float: left;
+}
+
+.contact_box2{
+  height: 500px;
+  width: 100%;
+  /* padding: 30px;
+  padding-top: 0px; */
+  float: left;
+}
+
+.contact_box2 form input,textarea{
+  background-color: #EEF9FF;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.apointment_box{
+  height: 100%;
+  width: 90%;
+  background-color: #1084B3;
+}
+

@@ -1,0 +1,35 @@
+{
+  "contacts": [
+    {
+      "name": "Adi",
+      "email": "adi@gmail.com",
+      "subject": "xyz",
+      "msg": "ksan nwh lrfah edwu"
+    },
+    {
+      "name": "kalyani",
+      "email": "kalyani@gmail.com",
+      "subject": "jjn",
+      "msg": "ujvf rwgtn bni brntj wjnl"
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "subject": "iskj",
+      "msg": "jfi wsij geljnt btnr"
+    }
+  ],
+  "appointments": [
+    {
+      "user_id" : "1",
+      "uname": "xyz",
+      "umobile": "9765432988",
+      "uaddress" : "Pune",
+      "uage" : "18",
+      "udisease" : "fever",
+      "udate": "2023-12-07",
+      "utime": "2 PM",
+      "udept" : "Other"
+    }
+  ]
+}

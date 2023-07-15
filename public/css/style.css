@@ -1,0 +1,21 @@
+.main_div{
+    height: 700px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.half{
+    height: 15%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-left: 60px;
+}
+
+.half2{
+    height: 15%;
+    width: 25%;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin-left: 60px;
+}
